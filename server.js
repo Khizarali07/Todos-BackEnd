@@ -35,7 +35,7 @@ app.use(cors());
     let i = 0;
     await alltask.forEach((doc) => {
       arr[i++] = doc;
-      console.log(arr);
+      // console.log(arr);
     });
     await res.status(200).json(arr);
   });
@@ -46,7 +46,7 @@ app.use(cors());
     let i = 0;
     await alltask.forEach((doc) => {
       arr[i++] = doc;
-      console.log(arr);
+      // console.log(arr);
     });
     await res.status(200).json(arr);
   });
@@ -57,7 +57,7 @@ app.use(cors());
     let i = 0;
     await alltask.forEach((doc) => {
       arr[i++] = doc;
-      console.log(arr);
+      // console.log(arr);
     });
     await res.status(200).json(arr);
   });
