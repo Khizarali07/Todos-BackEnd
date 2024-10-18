@@ -9,7 +9,7 @@ app.use(cors());
 
 (async function fun() {
   const url =
-    "mongodb+srv://khizarali:<db_password>@cluster0.hod0c.mongodb.net/todos?retryWrites=true&w=majority&appName=Cluster0";
+    "mongodb+srv://khizarali:khizar24@cluster0.hod0c.mongodb.net/todos?retryWrites=true&w=majority&appName=Cluster0";
   const con = await mongo.MongoClient.connect(url);
   const db = con.db("todos");
 
